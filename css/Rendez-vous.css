@@ -1,0 +1,114 @@
+body  {
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+	background-image: url(https://wp.fr.aleteia.org/wp-content/uploads/sites/6/2020/11/ciel-paradis.jpg);
+}
+*{
+	box-sizing: border-box;
+}
+
+/*.............MENU.........*/
+
+
+#menu ul li:hover {
+	opacity: 1;
+}
+#menu ul {	
+	text-align:left;
+	height:150px;
+	line-height:40px;
+}
+#menu ul li {
+	opacity: 0.7;
+	transition : 0.5s; 
+	text-align: center;
+	display: inline;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+#menu ul li a:hover {
+	color: #fffb00;
+}
+#menu ul li a {
+	font-size: 25px;
+	color: rgb(6, 6, 166);
+	text-decoration: none;
+	
+}
+
+#content{
+	display: flex;
+	padding: 0;	
+	margin: 0;
+	}
+
+
+
+/*.............RDV.........*/
+.contact-form {
+    max-width: 650px;
+    width: 100%;
+    background-color: #d8e5f0;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(188, 15, 15, 0.1);
+    box-sizing: border-box;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #357ab8;
+}
+
+
+
+
+	
+/*.............CONTACT.........*/
+.boxCONTMENU{
+
+	padding: 0px;
+	margin: 0px;
+	background-color: #d8e5f0;
+	display: flex;
+	
+}
+.boxCONTMENU li {
+	
+	margin: 20px;
+	display: inline;
+	
+}
+
+
+/*----------------FOOTER-----------------*/
+footer{
+	padding:0px;
+    margin: 0px;
+}
+.boxF{
+	background-color: #b8d5ed;
+	display: flex;
+	
+}
+/*----------------AUTRES-----------------*/
+.annule{clear:both;}
